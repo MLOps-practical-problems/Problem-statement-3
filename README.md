@@ -10,7 +10,7 @@ This repository is a part of my MLOps practice exercises. The objective of this 
 - Reload and reuse the saved model for predictions.
 
 #### Dataset Used
-- Iris Dataset (from UCI Repository).
+- Iris Dataset (from sklearn.datasets).
 - Features include:
   - Sepal length
   - Sepal width
@@ -20,3 +20,5 @@ This repository is a part of my MLOps practice exercises. The objective of this 
 
 #### Model
 - `saved_model.pkl`: Trained model saved using `joblib`.
+- `scaler.pkl`: Scalar for data preprocessing saved using `joblib`
+
